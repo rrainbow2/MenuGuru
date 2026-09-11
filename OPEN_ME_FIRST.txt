@@ -1,0 +1,41 @@
+PACKING SLIP CHEF SYSTEM — EASY START
+
+IMPORTANT:
+You do NOT open app.py, requirements.txt, or the database file directly.
+Those files are parts of the application.
+
+WINDOWS
+1. Right-click the ZIP and choose "Extract All".
+2. Open the extracted folder.
+3. Double-click START_WINDOWS.bat.
+4. The first run installs the required components automatically.
+5. Your web browser should open the Packing Slip Chef System.
+6. Keep the black command window open while using the system.
+
+If Windows warns you about the BAT file:
+Choose "More info" > "Run anyway" only if you downloaded this package directly from this ChatGPT conversation.
+
+MAC
+1. Extract the ZIP.
+2. Open Terminal in the extracted folder.
+3. Run:
+   chmod +x START_MAC.command
+   ./START_MAC.command
+
+WHAT TO OPEN
+- START_WINDOWS.bat — Windows launcher
+- START_MAC.command — Mac launcher
+- app.py — application code (do not double-click this)
+- requirements.txt — software requirements
+- sample_pdfs — your two example packing slips
+
+WHERE TO UPLOAD NEW PACKING SLIPS
+Once the app opens in your browser:
+1. Select "Upload packing slips" in the left menu.
+2. Click "Browse files".
+3. Select one or more new packing-slip PDFs.
+4. Review the extracted information.
+5. Click "Add ... to dashboard".
+
+NOTE
+This prototype runs on one computer. A later hosted version can be opened by multiple kitchen tablets/PCs through a normal web address.

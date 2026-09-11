@@ -1,0 +1,24 @@
+PACKING SLIP CHEF SYSTEM — WINDOWS
+
+1. Right-click this ZIP and choose "Extract All".
+2. Open the extracted folder.
+3. Double-click START_WINDOWS.bat.
+4. Keep the black window open.
+5. The app should open at:
+   http://localhost:8501
+
+IF THE BROWSER DOES NOT OPEN
+Open Chrome or Edge yourself and type:
+   http://localhost:8501
+
+IF THAT PAGE SAYS IT CANNOT CONNECT
+Look at the black window for an error and send a screenshot of it in the ChatGPT conversation.
+
+IMPORTANT
+Do not double-click app.py. Use START_WINDOWS.bat.
+
+VERSION 3 FIX
+Line-item extraction has been corrected for the Menu Guru PDF table structure where Description and Quantity are extracted on separate lines.
+
+VERSION 4 FIX
+Airport, delivery date and delivery time are now extracted directly from the first Catering Inflight line.
